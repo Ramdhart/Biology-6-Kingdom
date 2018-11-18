@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/proto" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="      Protozoa secara umum dapat dijelaskan bahwa protozoa adalah berasal dari bahasa Yunani, yaitu protos artinya pertama dan zoon artinya hewan.
+
+    Jadi,Protozoa adalah hewan pertama. Protozoa merupakan kelompok lain protista eukariotik. Kadang-kadang antara algae dan protozoa kurang jelas perbedaannya.
+
+    Kebanyakan Protozoa hanya dapat dilihat di bawah mikroskop. Beberapa organisme mempunyai sifat antara algae dan protozoa.
+    Sebagai contoh algae hijau Euglenophyta, selnya berflagela dan merupakan sel tunggal yang berklorofil, tetapi dapat mengalami kehilangan klorofil dan kemampuan untuk berfotosintesa. Semua spesies Euglenophyta yang mampu hidup pada nutrien komplek tanpa adanya cahaya,
+     beberapa ilmuwan memasukkannya ke dalam filum protozoa. Contohnya strain mutan algae genus Chlamydomonas yang tidak berklorofil, dapat dimasukkan ke dalam kelas Protozoa genus Polytoma. Hal ini merupakan contoh bagaimana sulitnya membedakan dengan tegas antara algae dan protozoa. Protozoa dibedakan dari prokariot karena ukurannya yang lebih besar, dan selnya eukariotik. Protozoa dibedakan dari algae karena tidak berklorofil, dibedakan dari jamur karena dapat bergerak aktif dan tidak berdinding sel,
+                serta dibedakan dari jamur lendir karena tidak dapat membentuk badan buah."/>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

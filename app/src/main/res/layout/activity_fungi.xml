@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/fungi" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Fungi(jamur) adalah organisme eukariotik yang bersel tunggal atau banyak dengan tidak memiliki klorofil. Sel jamur memiliki dinding yang tersusun atas kitin. Karena sifat-sifatnya tersebut dalam klasifikasi makhluk hidup, Jamur dipisahkan dalam kingdom nya tesendiri,ia tidak termasuk dalam kindom protista,monera, maupun plantae. Karena tidak berklorofil, jamur temasuk ke dalam makhluk hidup heterotof (memperoleh makanan dari organisme lainnya), dalam hal ini jamur hidup dengan jalan menguraikan bahan-bahan organik yang ada di lingkungannya. Umumnya jamur hidup secara saprofit (hidup dengan menguai sampah oganik seperti bankai menjadi bahan anoganik). Ada juga jamur yang hidup secara parasit (memperoleh bahan organik dari inangnya), adapula yang hidup dengan simbiosis mutualisme(yaitu hidup dengan organisme lain agar sama-sama mendapatkan untung).
+
+Seperti yang telah saya jelaskan tadi sahabat, jamur terbagi atas dua, yaitu uniseluler(besel tunggal) dan multiseluler), nah keduanya ini memiliki cara berkembang biak yang berbeda.
+Jamur uniseluler berkembangbiak secara aseksual dengan membentuk tunas, dan secara seksual dengan membentuk spora askus. Sedangkan jamur multiseluler yang terbentuk dari rangkaian sel membentukbenang seperti kapas, yang disebut benang hifa. Dalam perkembangbiakkannya secara aseksual ia memutuskan benang hifa (fragmentasi), membentuk spora aseksual yaitu zoospora, endospora, dan konidia. Secara seksual melalui pelebuan anatara inti jantan dan inti bentina sehingga terbentuk spora  askus atau spora sidium.
+
+Zoospora atau spora kembara adalah spoa yang dapat bergerak di dalam air dengan menggunakan flagela. Jadi jamur penghasil zoospora biasanya hidup di lingkungan yang lembab atau berair.
+Endospora adalah spoa yang dihasilkan oleh sel dan spora tetap tinggal di dalam sel tesebut, hingga kondisi memungkinkan untuk tumbuh.
+"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

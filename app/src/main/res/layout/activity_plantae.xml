@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/pinus" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Plantae adalah organisme eukariotik multiseluler yang mempunyai dinding sel dan klorofil. Tumbuhan dan beberapa jenis alga adalah bagian utama dari kingdom ini. Tumbuhan memiliki kemampuan untuk menghasilkan makanan sendiri (autotrof) dengan klorofil yang dimiliki. Klorofil membuat tumbuhan menjadi didominasi oleh warna hijau. Kingdom ini berperan sebagai produsen dalam rantai makanan. Terdapat kurang lebih 400.000 spesies dalam kingdom plantae.
+
+Berikut adalah daftar ciri-ciri kingdom plantae. Ciri-ciri inilah yang membedakan kingdom plantae dengan kingdom fungi dan beberapa jenis alga.
+
+-Multiseluler (memiliki banyak sel)
+-Terdapat dinding sel yang terbuat dari selulosa
+-Eukariotik
+-Mendapatkan makanan dengan cara fotosintesis yang dibantu dengan cahaya matahari
+-Bereproduksi secara seksual (putik dan benang sari) maupun aseksual (cangkok, tunas, setek, dll)
+-Hidup di daratan atau perairan
+-Autrotrof (dapat membuat makanan sendiri)
+-Selain itu, plantae memiliki organ dan sistem organ. Memiliki daun untuk mengumpulkan sinar matahari yang digunakan untuk membuat glukosa. Memiliki akar untuk memperkokoh tumbuhan dan menyerap air. Alat reproduksi seksualnya adalah bunga."/>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

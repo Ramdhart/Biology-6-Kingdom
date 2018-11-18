@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/cat" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Kingdom Animalia atau biasa disebut hewan merupakan organisme eukariotik (organisme dengan sel kompleks)  yang multiseluler. Berbeda dengan tumbuhan, hewan tidak memiliki klorofil sehingga tidak dapat melakukan fotosintesis untuk membuat makanannya sendiri. Oleh karena itu, hewan harus mencari makanannya sendiri untuk mendapatkan energi  kemudian makanan tersebut dicerna di dalam tubuhnya. Proses ini membutuhkan oksigen dan mengeluarkan karbon dioksida sebagai zat sisa.
+
+Ciri khas pada hewan yaitu sel hewan tidak memiliki dinding sel. Hewan banyak mengandung sel otot untuk pergerakannya dan sel saraf yang berfungsi untuk merespon setiap rangsang.
+
+B. CIRI – CIRI KINGDOM ANIMALIA
+Ciri Utama Kingdom Animalia Adalah :
+-Makhluk Hidup Multiseluler (Memiliki banyak sel)
+-Bersifat Heterotrof (tidak dapat membuat makanan sendiri)
+-Memerlukan Oksigen
+-Memiliki sel otot untuk penggerak dan sel saraf untuk rangsangan
+-Reproduksi Umumnya Seksual, namun beberapa filum juga menggunakan reproduksi aseksual
+-Bentuk Dewasanya selalu diploid (2n)"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

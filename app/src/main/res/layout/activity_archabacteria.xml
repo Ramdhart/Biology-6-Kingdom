@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/arch" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Istilah archaebacteria berasal dari bahasa yunani yaitu archaio yang berarti kuno. Hal ini dikarenakan kelompok bakteri ini merupakan prokariota yang paling primitif (kuno) dalam kelompok bakteri. Penyebutan kuno pada kelompok ini ialah dalam hal susunan RNA ribosomal yang dimiliki oleh kelompok ini. Klasifikasi ini merupakan berkat kemajuan teknologi sehingga para ahli taksonomi dapat menganalisa struktur molekuler organisme. Selain itu, kelompok archaebakteria ditemukan banyak menghuni habitat – habitat bumi purbakala yang kini merupakan lingkungan – lingkungan ekstreem di bumi. Archaebacteria adalah kelompok bakteri prokariot dengan RNA ribosomal yang berbeda dengan bakteri dari Domain Bacteria. Adapun ciri – ciri dari archaebacteria sekilas nampak sama dengan kelompok Domain Bacteria, antara lain:
+
+1. Tipe Sel: Prokariotik
+
+Archaebacteria merupakan bagian dari kingdom monera jika dalam sistem klasifikasi lima kingdom. Archae memiliki ciri dasar kelompok kingdom monera yaitu memiliki tipe sel prokariotik, artinya sel yang tidak memiliki inti sel. Hal ini dikarenakan tidak adanya membran inti yang membungkung materi genetik bakteri (DNA). Dengan demikian, DNA terkumpar di dalam sitoplasma.
+
+2. Dinding Sel
+
+Dinding sel archaebacter tersusun atas bukan senyawa peptidoglikan yaitu karbohidrat kompleks yang menyusun kelompok/domain Bacteria. Dengan demikian, archae memiliki struktur dinding sel yang berbeda dengan domain bacteria. Dinding sel Archaebacter tersusun atas senyawa glikoprotein, polisakarida, dan protein.
+
+3. Tidak Memiliki Organel Bermembran
+
+Ketiadaan membran inti membuat organel – organel bermembran seperti RE, Mitokondria, Kloroplas, Badan Golgi, Lisosom, Vakuola, dan peroksisom pun tidak dimiliki oleh Archae.
+
+4. Habitat: Wilayah ekstreem Bumi / Lingkungan purbakala
+
+Penamaan archae (kuno) pada domain ini didasarkan pada habitat kelompok ini yang menghuni wilayah – wilayah ekstreem di muka Bumi. Tempat – tempat ini merupakan gambaran bumi purbakala. Archaebacter dapat ditemukan di wilayah dengan kadar garam yang sangat tinggi (halofil ekstreem), atau di suatu wilayah dengan suhu sangat tinggi (termofil ekstreem), atau ditemukan di suatu wilayah dengan tanpa oksigen melainkan dengan metana (metanogen).
+
+5. Cara makan: Kemoautotrof
+
+Kelompok archaebacteria hidup di tempat yang sangat ekstreem, dimana sebagian organisme tidak mampu mentolerir wilayah tersebut. Meski demikian, archaebacter sukses beradaptasi dengan lingkungan demikian. Kebutuhan akan nutrisi diperolehnya dengan membuat makanannya sendiri menggunakan senyawa kimia dari lingkungannya sebagai prekursor untuk menghasilkan energi. Metabolisme yang berlangsung terjadi secara anaerob (mengingat di wilayah ekstreem tidak ada kadar oksigen). "/>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/eu"
+                android:onClick="bakteri"
+                android:id="@+id/bakteri"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/arch"
+                android:onClick="archa"
+                android:id="@+id/archa"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/proto"
+                android:onClick="proto"
+                android:id="@+id/proto"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/fungi"
+                android:onClick="fungi"
+                android:id="@+id/fungi"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/pinus"
+                android:onClick="plant"
+                android:id="@+id/plant"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/cat"
+                android:onClick="anim"
+                android:id="@+id/anim"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/close"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/exit"
+        android:onClick="exit"
+        android:alpha="0.9"/>
+
+</RelativeLayout>

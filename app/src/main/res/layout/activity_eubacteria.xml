@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/eu" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Eubacteria Secara harfiah berarti bakteri sejati, yang mencakup semua bakteri kecuali archaebacteria. Eubacteria adalah organisme prokariotik, yang ditandai oleh ketiadaan membran penutup inti atau nukleus. Selain itu ciri penting mereka adalah organisme uniseluler, dengan DNA dalam kromosom melingkar tunggal, dan memiliki peptidoglikan pada dinding sel. Mereka termasuk sebagian besar bakteri yang akrab dalam kepentingan medis dan ekonomi seperti E. coli, Staphylococcus, Salmonella, Lactobacillus, Nitrosomonas, Streptomyces, dll.
+
+Bakteri adalah organisme mikroskopis yang terdiri dari domain Eubacteria. Sebuah domain adalah pengelompokan tertinggi organisme, menggantikan tingkat kerajaan dalam sistem Linnaeus klasifikasi biologi klasik.
+
+Ada tiga domain, dua di antaranya, Eubacteria dan Archaea, yang seluruhnya terdiri dari organisme prokariotik; domain ketiga, Eukarya, meliputi semua (eukariotik) bentuk lain kehidupan, termasuk-sel tunggal dan protista multiseluler, serta hewan, tanaman hijau, dan jamur. Tidak seperti sel-sel eukariotik, sel prokariotik tidak memiliki inti dan organel lainnya, dan cenderung kurang kompleks.
+
+Eubacteria dibedakan dari archaea terutama didasarkan pada komposisi kimia dari komponen seluler. Misalnya, dinding sel bakteri terdiri dari peptidoglikan (meskipun ada contoh bakteri yang tidak memiliki dinding sel), sedangkan dinding sel archaea terdiri dari molekul protein yang disebut molekul – karbohidrat pseudopeptidoglikan atau lainnya.
+
+Membran sel bakteri terdiri dari asam lemak bergabung ke gliserol dengan ikatan ester (COOC), sedangkan membran archaea terdiri dari isoprenoidnya dan bukan gliserol, terkait dengan asam lemak dengan ikatan eter (COC). Selain itu, archaea memiliki asam ribonukleat (RNA) polimerase lebih kompleks daripada bakteri." />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>
